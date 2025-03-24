@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 0.67em 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+    border-radius: 100%;
+    object-fit: contain;
+}
+
+.panel{
+    display: flex;
+}
+
+.post{
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.panel.pad{
+    padding: 0.67em;
+}
+
+.panel.gap{
+    gap: 0.67em;
+}
+
+.panel.flex_row{
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.panel.flex_col{
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.flex_row.flex_start{
+    justify-content: flex-start;
+}
+
+.flex_row.flex_end{
+    justify-content: flex-end;
+}
+
+.flex_row.flex_center{
+    justify-content: center;
+}
+
+.flex_col.flex_start{
+    align-items: flex-start;
+}
+
+.flex_col.flex_end{
+    align-items: flex-end;
+}
+
+.flex_col.flex_start{
+    align-items: flex-start;
+}
+
+.flex_col.flex_center{
+    align-items: center;
+}
+
+.f1{
+    flex: 1;
+}
+
+.f2{
+    flex: 2;
+}
+
+.f3{
+    flex: 3;
+}
+
+.like_button{
+    padding: 0.5em 2em;
+    background-color: gold;
+    border: 0;
+    border-radius: 8px;
+}
+
+#profile{
+    border: 2px solid black;
+    border-radius: 12px;
+}
