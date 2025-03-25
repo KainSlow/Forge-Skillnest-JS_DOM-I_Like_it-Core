@@ -9,70 +9,63 @@
     <script src="./src/app.js" defer></script>
 </head>
 
-<body>
+<body class="panel col">
     <header>
         <nav>
             <h2>Network</h2>
         </nav>
     </header>
-    <main class="panel flex_row">
-        <aside id = "profile" class="panel flex_col flex_center pad gap f1"> <!--Profile-->
+    <main class="panel row pad center f1">
+        <aside id = "profile" class="panel col center pad gap f1"> <!--Profile-->
             <div class="panel">
                 <img src="./img/default-profile-picture.png" alt="profile picture">
             </div>
-            <h3>Profile name</h3>
+            <h3>Juan Pérez</h3>
         </aside>
-        <div class="panel flex_col pad gap f3"> <!--Posts-->
+        <div id="posts" class="panel col pad gap f3"> <!--Posts-->
             <h1>Your Feed</h1>
 
-            <div class="panel post flex_col gap pad"> <!--Post-->
-                <div class="panel flex_row">
+            <div class="panel post col gap pad"> <!--Post-->
+                <div class="panel row">
                     <h2>Linn O.</h2>
-                    <div class="panel flex_row flex_end f1 gap">
+                    <div class="panel row end f1 gap">
                         <h4 class="like_counter">0 Like(s)</h4>
                         <button class="like_button" type="button">Like</button>
                     </div>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque nisi qui numquam minima? Quo, maxime.
+                    Acabo de configurar este nuevo bot de Discord, cuéntenme qué opinan ustedes. 
+                    <a href="#">link</a>
                 </p>
             </div>
 
-            <div class="panel post flex_col gap pad"> <!--Post-->
-                <div class="panel flex_row">
+            <div class="panel post col gap pad"> <!--Post-->
+                <div class="panel row">
                     <h2>Lina K.</h2>
-                    <div class="panel flex_row flex_end f1 gap">
+                    <div class="panel row end f1 gap">
                         <h4 class="like_counter">0 Like(s)</h4>
                         <button class="like_button" type="button">Like</button>
                     </div>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque nisi qui numquam minima? Quo, maxime.
+                    Acabo de terminar <a href="#">este nuevo comic,</a> denle un vistazo.
                 </p>
             </div>
 
-            <div class="panel post flex_col gap pad"> <!--Post-->
-                <div class="panel flex_row">
+            <div class="panel post col gap pad"> <!--Post-->
+                <div class="panel row">
                     <h2>Mateo H.</h2>
-                    <div class="panel flex_row flex_end f1 gap">
+                    <div class="panel row end f1 gap">
                         <h4 class="like_counter">0 Like(s)</h4>
                         <button class="like_button" type="button">Like</button>
                     </div>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cumque nisi qui numquam minima? Quo, maxime.
+                    No puedo dejar de escuchar este <a href="#">album</a>, ¿A quién más le gusta?
                 </p>
             </div>
         </div>
     </main>
-    <footer>
-        <h4>
-            &copy Kainslow
-        </h4>
-    </footer>
 </body>
 
 </html>

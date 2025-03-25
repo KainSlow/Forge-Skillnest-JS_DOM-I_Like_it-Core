@@ -3,16 +3,17 @@
     padding: 0;
 }
 
-nav{
+nav, footer{
     display: flex;
     justify-content: center;
+    background: rgb(40, 40, 40);
+    color: white;
+}
+
+nav{
     padding: 0.67em 0;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-}
 
 img{
     width: 100%;
@@ -37,41 +38,41 @@ img{
     gap: 0.67em;
 }
 
-.panel.flex_row{
+.panel.row{
     flex-flow: row wrap;
     align-items: center;
 }
 
-.panel.flex_col{
+.panel.col{
     flex-flow: column wrap;
     justify-content: center;
 }
 
-.flex_row.flex_start{
+.row.start{
     justify-content: flex-start;
 }
 
-.flex_row.flex_end{
+.row.end{
     justify-content: flex-end;
 }
 
-.flex_row.flex_center{
+.row.center{
     justify-content: center;
 }
 
-.flex_col.flex_start{
+.col.start{
     align-items: flex-start;
 }
 
-.flex_col.flex_end{
+.col.end{
     align-items: flex-end;
 }
 
-.flex_col.flex_start{
+.col.start{
     align-items: flex-start;
 }
 
-.flex_col.flex_center{
+.col.center{
     align-items: center;
 }
 
@@ -97,4 +98,9 @@ img{
 #profile{
     border: 2px solid black;
     border-radius: 12px;
+    flex: 0 1 225px;
+}
+
+#posts{
+    flex: 1 1 300px;
 }
